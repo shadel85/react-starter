@@ -9,7 +9,7 @@ import promiseMiddleware from 'redux-promise-middleware';
 
 // IMPORT REDUCERS
 
-import { AppReducer } from '../reducers/AppReducer';
+import { AppReducer } from './AppReducer';
 
 
 // CONFIGURE STORE

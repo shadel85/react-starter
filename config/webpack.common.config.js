@@ -5,7 +5,7 @@ const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
 const commonPaths = require('./common-paths');
 
 const config = {
-    entry: './src/index.js',
+    entry: './area/index.js',
     output: {
         filename: 'bundle.js',
         path: commonPaths.outputPath

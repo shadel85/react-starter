@@ -6,10 +6,10 @@ import { bindActionCreators } from 'redux';
 
 // IMPORT PROJECT REFERENCES
 
-import { fetchZipCodes } from '../state/actions/ZipCodeActions';
+import { fetchZipCodes } from '../duck/Actions';
 import { ZipCodeList } from './ZipCodeList';
-import { LoadingIndicator } from '../shared/LoadingIndicator/LoadingIndicator';
-import { Error } from '../shared/Error/Error';
+import { LoadingIndicator } from '../../Shared/LoadingIndicator';
+import { Error } from '../../Shared/Error';
 
 
 // COMPONENT
