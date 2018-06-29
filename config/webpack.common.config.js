@@ -17,7 +17,7 @@ const config = {
                 test: /\.js$/,
                 loader: 'eslint-loader',
                 options: {
-                    failOnWarning: true,
+                    failOnWarning: false,
                     failOnerror: true
                 },
                 exclude: /node_modules/
